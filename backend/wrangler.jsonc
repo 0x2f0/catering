@@ -4,17 +4,17 @@
 	"main": "src/index.ts",
 	"compatibility_date": "2026-10-15",
 	"compatibility_flags": [
-	  "nodejs_compat"
+		"nodejs_compat"
 	],
-	// "d1_databases": [
-	//   {
-	//     "binding": "MY_DB",
-	//     "database_name": "my-database",
-	//     "database_id": ""
-	//   }
-	// ],
 	"observability": {
-	  "enabled": true,
-	  "head_sampling_rate": 1
-	}
+		"enabled": true,
+		"head_sampling_rate": 1
+	},
+	"d1_databases": [
+		{
+			"binding": "catering_backend_db",
+			"database_name": "catering-backend-db",
+			"database_id": "04207566-d046-4ecb-9a14-31f2fe541a6b"
+		}
+	]
 }
