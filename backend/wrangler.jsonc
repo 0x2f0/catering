@@ -14,7 +14,8 @@
 		{
 			"binding": "catering_backend_db",
 			"database_name": "catering-backend-db",
-			"database_id": "04207566-d046-4ecb-9a14-31f2fe541a6b"
+			"database_id": "04207566-d046-4ecb-9a14-31f2fe541a6b",
+			"migrations_dir": "drizzle/migrations"
 		}
 	]
 }
